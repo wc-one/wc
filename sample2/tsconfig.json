@@ -1,0 +1,19 @@
+{
+  "include": ["./src", "./package.json"],
+  "exclude": [],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "AMD",
+    "lib": ["ES6"],
+    "declaration": false,
+    "outDir": "./build/",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
